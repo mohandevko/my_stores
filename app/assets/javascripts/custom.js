@@ -197,45 +197,45 @@ $(document).ready(function(){
     /*Client Owl Ends*/
 
     /*Tweet Starts*/
-    if($('.tweet').length!=0){
-        $('.tweet').twittie({
-            username: 'phoenixcoded',
-            dateFormat: '%b. %d, %Y',
-            template: '<div class="circle mb20">{{avatar}}</div><p>{{tweet}}</p> <time class="date">{{date}}</time>',
-            count: 10,
-        },function()
-        {
-            $(".tweet ul").addClass("tweet_slider");
-            $(".tweet li").addClass("item");
-            $(".tweet_slider").owlCarousel(
-            {
-                dots: false,
-                loop:true,
-                margin:20,
-                responsiveClass:true,
-                responsive:
-                {
-                    0:{
-                        items:1,
-                        nav:true
-                    },
-                    400:{
-                        items:1,
-                        nav:true
-                    },
-                    700:{
-                        items:1,
-                        nav:true
-                    },
-                    1000:{
-                        items:1,
-                        nav:true,
-                        loop:true
-                    }
-                }
-            });
-        });
-    }
+    // if($('.tweet').length!=0){
+    //     $('.tweet').twittie({
+    //         username: 'phoenixcoded',
+    //         dateFormat: '%b. %d, %Y',
+    //         template: '<div class="circle mb20">{{avatar}}</div><p>{{tweet}}</p> <time class="date">{{date}}</time>',
+    //         count: 10,
+    //     },function()
+    //     {
+    //         $(".tweet ul").addClass("tweet_slider");
+    //         $(".tweet li").addClass("item");
+    //         $(".tweet_slider").owlCarousel(
+    //         {
+    //             dots: false,
+    //             loop:true,
+    //             margin:20,
+    //             responsiveClass:true,
+    //             responsive:
+    //             {
+    //                 0:{
+    //                     items:1,
+    //                     nav:true
+    //                 },
+    //                 400:{
+    //                     items:1,
+    //                     nav:true
+    //                 },
+    //                 700:{
+    //                     items:1,
+    //                     nav:true
+    //                 },
+    //                 1000:{
+    //                     items:1,
+    //                     nav:true,
+    //                     loop:true
+    //                 }
+    //             }
+    //         });
+    //     });
+    // }
     /*Tweet Ends*/
 
     /* Menu hide/show on scroll */

@@ -2039,7 +2039,7 @@ textarea.form-control {
 .scrollup {
     position: fixed;
     bottom: 30px;
-    right: 30px;
+    right: 0px;
     display: none;
     z-index: 998;
     background: #23d1b7;
