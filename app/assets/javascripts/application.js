@@ -11,18 +11,18 @@
 // about supported directives.
 //
 
-//= require jquery.2.2.3.min
-//= require bootstrap.min
-//= require jarallax.min
-//= require jquery.sidebar.min
-//= require owl.carousel.min
-//= require jquery.magnific-popup.min
-//= require jquery.counterup
-//= require waypoints.min
-//= require mCustomScrollbar.min
-//= require waves.min
-//= require gmaps
-//= require custom
+//= require landing/jquery.2.2.3.min
+//= require landing/bootstrap.min
+//= require landing/jarallax.min
+//= require landing/jquery.sidebar.min
+//= require landing/owl.carousel.min
+//= require landing/jquery.magnific-popup.min
+//= require landing/jquery.counterup
+//= require landing/waypoints.min
+//= require landing/mCustomScrollbar.min
+//= require landing/waves.min
+//= require landing/gmaps
+//= require landing/custom
 //= require rails-ujs
 //= require turbolinks
 //= require_tree .
