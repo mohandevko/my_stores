@@ -11,17 +11,21 @@
 // about supported directives.
 //
 
-//= require landing/jquery.2.2.3.min
-//= require landing/bootstrap.min
-//= require landing/jarallax.min
-//= require landing/jquery.sidebar.min
-//= require landing/owl.carousel.min
-//= require landing/jquery.magnific-popup.min
-//= require landing/jquery.counterup
-//= require landing/waypoints.min
-//= require landing/mCustomScrollbar.min
-//= require landing/waves.min
-//= require landing/gmaps
-//= require landing/custom
+//= require admin/admin_jquery
+//= require admin/admin_bootstrap.min
+//= require admin/admin_modernizr.min
+//= require admin/admin_pace.min
+//= require admin/admin_wow.min
+//= require admin/admin_jquery.scrollTo.min
+//= require admin/admin_jquery.nicescroll
+//= require admin/admin_waypoints.min
+//= require admin/admin_jquery.counterup.min
+//= require admin/admin_jquery.sparkline.min
+//= require admin/admin_chart-sparkline
+//= require admin/admin_skycons.min
+//= require admin/admin_raphael.min
+//= require admin/admin_jquery.app
+//= require admin/admin_jquery.dashboard
+//= require admin/admin_morris.min
 //= require rails-ujs
 //= require turbolinks
