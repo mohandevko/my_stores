@@ -2127,7 +2127,7 @@ ul.p-social-link li a {
   }
 
   aside.left-panel.collapsed .user .user-login,
-aside.left-panel.collapsed span.nav-label {
+  aside.left-panel.collapsed span.nav-label {
     display: none;
   }
 

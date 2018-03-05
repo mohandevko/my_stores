@@ -110,11 +110,6 @@ function($) {
     "use strict";
     
     var VelonicApp = function() {
-        this.VERSION = "1.0.0", 
-        this.AUTHOR = "Coderthemes", 
-        this.SUPPORT = "coderthemes@gmail.com", 
-        this.pageScrollElement = "html, body", 
-        this.$body = $("body")
     };
 
     //initializing tooltip
@@ -141,6 +136,7 @@ function($) {
     },
     
     //initilizing 
+
     VelonicApp.prototype.init = function() {
         this.initTooltipPlugin(),
         this.initPopoverPlugin(),
@@ -157,10 +153,9 @@ function($) {
 }(window.jQuery),
 
 //initializing main application module
-function($) {
-    "use strict";
-    $.VelonicApp.init()
-}(window.jQuery);
+jQuery( document ).ready(function( $ ) {
+    $.VelonicApp.init();
+});
 
 
 /* ==============================================

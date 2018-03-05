@@ -11,21 +11,20 @@
 // about supported directives.
 //
 
-//= require admin/admin_jquery
-//= require admin/admin_bootstrap.min
-//= require admin/admin_modernizr.min
-//= require admin/admin_pace.min
-//= require admin/admin_wow.min
-//= require admin/admin_jquery.scrollTo.min
-//= require admin/admin_jquery.nicescroll
-//= require admin/admin_waypoints.min
-//= require admin/admin_jquery.counterup.min
-//= require admin/admin_jquery.sparkline.min
-//= require admin/admin_chart-sparkline
-//= require admin/admin_skycons.min
-//= require admin/admin_raphael.min
-//= require admin/admin_jquery.app
-//= require admin/admin_jquery.dashboard
-//= require admin/admin_morris.min
+
 //= require rails-ujs
 //= require turbolinks
+//= require admin/jquery
+//= require admin/bootstrap.min
+//= require admin/skycons.min
+//= require admin/jquery.counterup.min
+//= require admin/waypoints.min
+//= require admin/jquery.scrollTo.min
+//= require admin/jquery.nicescroll
+//= require admin/modernizr.min
+//= require admin/pace.min
+//= require admin/wow.min
+//= require admin/morris.min
+//= require admin/raphael.min
+//= require admin/jquery.sparkline.min
+//= require admin/chart-sparkline
