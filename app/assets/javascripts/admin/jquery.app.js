@@ -1,9 +1,3 @@
-/**
- *  Themes: Velonic Admin theme
- *
- **/
-
-
 ! function($) {
     "use strict";
 

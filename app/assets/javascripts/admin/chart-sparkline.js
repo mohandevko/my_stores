@@ -1,10 +1,3 @@
-
-/**
-* Theme: Velonic Admin Template
-* Author: Coderthemes
-* Sparkline chart
-*/
-
 !function($) {
     "use strict";
 

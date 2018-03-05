@@ -8,8 +8,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <link rel="shortcut icon" href="/assets/favicon.ico" type="image/x-icon">
-    <link rel="icon" href="/assets/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="/assets/admin/favicon_1.ico">
+    <link rel="icon" href="/assets/favicon_1.ico" type="image/x-icon">
 
     <%= stylesheet_link_tag    'admin', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'admin', 'data-turbolinks-track': 'reload' %>
@@ -18,10 +18,32 @@
 
   <body>
 
-    <!--Preloader-->                     
-    <%#= render :partial => "layouts/landing_header" %>
+    <!--Preloader-->                
+    <aside class="left-panel">
+      <!-- brand -->
+      <div class="logo">
+          <a href="index-2.html" class="logo-expanded">
+              <i class="ion-social-buffer"></i>
+              <span class="nav-label">My Store</span>
+          </a>
+      </div>
+      <!-- / brand -->     
+      <%= render :partial => "layouts/admin_left_accordian" %>
+
+
+    </aside>
+    <section class="content">
+    <%= render :partial => "layouts/admin_header" %>
+    <div class="wraper container-fluid">
       <%= yield %>
-    <%#= render :partial => "layouts/landing_footer" %>
+    </div>
+    </section>
+        <!-- Footer Start -->
+    <footer class="footer">
+        2016 © My Store.
+    </footer>
+    <!-- Footer Ends -->
+
 
   </body>
 </html>

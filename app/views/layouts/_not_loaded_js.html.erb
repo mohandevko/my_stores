@@ -1,9 +1,5 @@
-/**
- *  Themes: Velonic Admin theme
- *
- **/
-
 <script type="text/javascript">
+// jquery_app
 ! function($) {
     "use strict";
 
@@ -170,13 +166,11 @@ var wow = new WOW(
     }
 );
 wow.init();
+// Dashboard Application
 
-/**
-* Theme: Velonic Admin Template
-* Author: Coderthemes
-* Module/App: Dashboard Application
-*/
 
+
+// Dashboard Application
 !function($) {
     "use strict";
 
@@ -254,14 +248,10 @@ function($) {
     "use strict";
     $.Dashboard.init()
 }(window.jQuery);
+// Sparkline chart
 
 
-/**
-* Theme: Velonic Admin Template
-* Author: Coderthemes
-* Sparkline chart
-*/
-
+// Sparkline chart
 !function($) {
     "use strict";
 
@@ -358,8 +348,47 @@ function($) {
     "use strict";
     $.Sparkline.init()
 }(window.jQuery);
+// Sparkline chart
 
 
+// Google Analytics
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-62751496-1', 'auto');
+ga('send', 'pageview');
+// Google Analytics
+
+// Counter Up
+
+jQuery(document).ready(function($) {
+      /* Counter Up */
+      $('.counter').counterUp({
+          delay: 100,
+          time: 1200
+      });
+  });
+  /* BEGIN SVG WEATHER ICON */
+  if (typeof Skycons !== 'undefined'){
+  var icons = new Skycons(
+      {"color": "#fff"},
+      {"resizeClear": true}
+      ),
+          list  = [
+              "clear-day", "clear-night", "partly-cloudy-day",
+              "partly-cloudy-night", "cloudy", "rain", "sleet", "snow", "wind",
+              "fog"
+          ],
+          i;
+
+      for(i = list.length; i--; )
+      icons.set(list[i], list[i]);
+      icons.play();
+};
+
+// Counter Up
 
 
 </script>

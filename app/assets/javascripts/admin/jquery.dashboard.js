@@ -1,9 +1,3 @@
-/**
-* Theme: Velonic Admin Template
-* Author: Coderthemes
-* Module/App: Dashboard Application
-*/
-
 !function($) {
     "use strict";
 
