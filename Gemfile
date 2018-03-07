@@ -55,3 +55,8 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 
 gem 'mysql2', '0.3.20'
+
+#new gems added by harsha on Mar 7 2018
+gem 'carrierwave', '~> 1.0'
+gem "userstamp", :git => "git://github.com/insphire/userstamp.git"
+#new gems added by harsha on Mar 7 2018
